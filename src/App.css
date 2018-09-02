@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.ShoppingCart {
+  background: #23272b;
+  width: 450px;
+  min-height: 100%;
+  max-height: 100%;
+  position: fixed;
+  top: 10px;
+  right: 0;
+  color: #ffffff;
+  padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.ShoppingCart .items {
+  min-height: 300px;
+}
+
+.ShoppingCart h4 {
+  padding: 10px;
+  min-height: 100px;
+}
+
+.ShoppingCart .subtotalGroup {
+  padding-top: 20px;
+}
+
+.total-price {
+  font-size: 20px;
+}
+
+.ShoppingCart .items .emptyCart {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  text-align: center;
+}
+
+.basket {
+  position: fixed;
+  height: 60px;
+  width: 55px;
+  font-size: 25px;
+  top: 10px;
+  right: 0;
+  padding: 10px;
+  background: #23272b;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.rightBasket {
+  right: 445px;
+  padding-left: 15px;
+}
+
+.items .itemDesc {
+  font-size: 14px;
+}
